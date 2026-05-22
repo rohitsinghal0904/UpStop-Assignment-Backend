@@ -12,6 +12,7 @@ app.use(
   cors({
     origin: [
       'https://up-stop-assignment.vercel.app',
+      'https://up-stop-assignment-frontend.vercel.app',
       'http://localhost:4200',
     ],
     credentials: true,
